@@ -1,0 +1,8 @@
+{
+  "name": "mu-utils",
+  "version": "1.0.0",
+  "description": "javascript utils library",
+  "main": "index.js",
+  "author": "renzhao",
+  "license": "MIT"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "muhooks",
+  "version": "1.0.0",
+  "description": "react hooks library",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {},
+  "peerDependencies": {
+    "react": "^16.13.1"
+  }
+}

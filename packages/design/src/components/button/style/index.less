@@ -1,0 +1,59 @@
+@import '../../../style/theme/default.less';
+@import './loading.less';
+@import './mixin.less';
+
+@btn-prefix-cls: ~'@{theme-prefix}-btn';
+
+.@{btn-prefix-cls} {
+  .btn();
+  .btn-default();
+  
+  .mu-loading {
+    margin-right: 8px;
+  }
+
+  &&-block {
+    display: block;
+  }
+
+  &-lg {
+    .mu-loading {
+      .loading-size(@font-size-lg);
+      &-ring {
+        .loading-size(@font-size-lg);
+      }
+    }
+  }
+
+  &-sm {
+    .mu-loading {
+      .loading-size(@font-size-sm);
+      &-ring {
+        .loading-size(@font-size-sm);
+      }
+    }
+  }
+
+
+  &&-primary {
+    .btn-primary;
+
+    .mu-loading {
+      &-ring {
+        .loading-color(@white);
+      }
+    }
+  }
+
+  &&-secondary {
+    .btn-secondary;
+
+    .mu-loading {
+      &-ring {
+        .loading-color(@red);
+      }
+    }
+  }
+}
+
+

@@ -1,0 +1,10 @@
+{
+  "name": "mudesign",
+  "version": "1.0.0",
+  "description": "react components",
+  "main": "index.js",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.13.1"
+  }
+}

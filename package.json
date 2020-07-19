@@ -1,0 +1,28 @@
+{
+  "name": "root",
+  "private": false,
+  "description": "some library",
+  "scripts": {
+    "init": "rm -rf node_modules && npm install && npm run clean && npm run bootstrap",
+    "bootstrap": "lerna bootstrap",
+    "clean": "lerna clean --yes",
+    "build": "lerna run build",
+    "start": "dumi dev",
+    "dev": "dumi dev",
+    "docs:build": "dumi build"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.41",
+    "@types/react-dom": "^16.9.8",
+    "@umijs/preset-react": "^1.5.14",
+    "@umijs/test": "^3.2.7",
+    "dumi": "^1.0.31",
+    "father-build": "^1.18.1",
+    "lerna": "^3.22.1",
+    "lint-staged": "^10.2.11",
+    "prettier": "^2.0.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "yorkie": "^2.0.0"
+  }
+}

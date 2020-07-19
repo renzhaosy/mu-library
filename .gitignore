@@ -1,0 +1,20 @@
+
+# dependencies
+node_modules
+yarn-error.log
+yarn.lock
+
+.doc
+
+# production
+dist
+
+# misc
+.DS_Store
+
+# umi
+.umi
+.umi-production
+
+lerna-debug.log
+
