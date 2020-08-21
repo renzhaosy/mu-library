@@ -1,6 +1,1 @@
-const flatten = require('./flatten');
-
-
-module.exports = {
-  flatten
-}
+export { default as flatten } from './flatten';

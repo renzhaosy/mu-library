@@ -16,6 +16,7 @@
     "@types/react-dom": "^16.9.8",
     "@umijs/preset-react": "^1.5.14",
     "@umijs/test": "^3.2.7",
+    "antd": "^4.5.4",
     "dumi": "^1.0.31",
     "father-build": "^1.18.1",
     "lerna": "^3.22.1",

@@ -1,0 +1,11 @@
+{
+  "name": "seed-components",
+  "version": "1.0.0",
+  "description": "some react components base on antd",
+  "main": "index.js",
+  "license": "MIT",
+  "peerDependencies": {
+    "antd": "^4.5.4",
+    "react": "^16.13.1"
+  }
+}

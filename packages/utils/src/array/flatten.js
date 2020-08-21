@@ -30,5 +30,5 @@ function flatten2(array) {
 }
 
 // export default flatten2;
-module.exports = flatten2;
+export default flatten2;
 
